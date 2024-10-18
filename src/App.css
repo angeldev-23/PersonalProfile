@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Light background */
+}
+
+.navbar {
+  background-color: #007bff; /* Blue background for navbar */
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+  display: flex; /* Flex layout */
+  justify-content: space-around; /* Space between items */
+}
+
+.navbar a {
+  color: white; /* White text */
+  text-decoration: none; /* Remove underline */
+  padding: 10px; /* Padding around links */
+}
+
+.navbar a:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.container {
+  max-width: 800px; /* Limit width */
+  margin: 20px auto; /* Center on page */
+  padding: 20px; /* Padding inside container */
+  background-color: white; /* White background */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+  color: #333; /* Dark text color */
+}
+
+p {
+  line-height: 1.5; /* Improve readability */
+}
